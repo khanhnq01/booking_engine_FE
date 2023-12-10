@@ -3,7 +3,7 @@ import moment from "moment"
 import { useState } from "react"
 import { Form, FormControl, Button } from "react-bootstrap"
 import BookingSummary from "./BookingSummary"
-import { bookRoom, getRoomById } from "/utils/ApiFunctions"
+import { bookRoom, getRoomById } from "../utils/APIFunctions"
 import { useNavigate, useParams } from "react-router-dom"
 import { useAuth } from "../auth/AuthProvider"
 

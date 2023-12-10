@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa"
 
 import { useParams } from "react-router-dom"
-import { getRoomById } from "/utils/ApiFunctions"
+import { getRoomById } from "../utils/APIFunctions"
 import RoomCarousel from "../common/RoomCarousel"
 
 const Checkout = () => {
